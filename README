@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3314
+
+In some environments (for example, KDE 3), gvim is unable to properly maximize or unmaximize itself, due to interactions with window managers or other issues.
+
+Maxivim bypasses window managers, allowing you to maximize gvim vertically, horizontally, or both, and restore it from having maximized it.
+
+Maxivim also allows you to set the initial size of your gvim windows by setting environment variables ($GVIM_LINES and $GVIM_COLUMNS).
+
+(This used to work with Vim 6, but I've only recently tested on Vim 7).
